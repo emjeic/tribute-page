@@ -1,0 +1,115 @@
+#title{
+    text-align: center;
+    color: darkblue;
+  
+  }
+  #main{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin:  0 20px 50px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: block;  /* Instruction no. 9 */
+  }
+  /* #main img{
+    text-align: center;  
+   
+  } */
+  #image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Instruction no. 8 */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  #img-caption {
+    padding-top: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    background-color: deeppink;
+    padding: 1em 2.35em 1em 2.35em;
+    position: relative;
+    font-size: 1.1em;
+      max-width: 20em;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #tribute-info{
+    font-size: 18px;
+  }
+  a:hover {
+              background-color: #43bff0;
+              color: #fff !important;
+          }
+  .container{
+    margin-top: 30px;
+  }
+  .container img{
+    max-width: 30%;
+    max-height: 30%;
+    padding-top: 10px;
+  }
+  .container h5{
+    position: relative;
+    margin: 0;
+  }
+  .section-1{
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+  .section-1:hover{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-left: 100px;
+    border-right: 100px;
+  }
+  .section-2{
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+  .section-2:hover{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-left: 100px;
+    border-right: 100px;
+  }
+  video{
+    width: 400px;
+    height: auto;
+  }
+  /* 1680px */
+          @media screen and (max-width: 1680px) {
+  
+              video {
+                  width: 400px;
+          height: 240px;
+              }
+  
+          }
+      /* 1280px */
+          @media screen and (max-width: 1280px) {
+  
+              video {
+                  width: 240px;
+          height: 180px;
+              }
+  
+          }
+  /* 320px */
+  @media screen and (max-width: 320px) {
+  
+              hr, video, #flyer {
+          display: none;
+              }
+  
+          }
+      
